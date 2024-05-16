@@ -16,6 +16,7 @@
 [Sources]
   SilDataInit.c
   CcxDataInit.c
+  FchDataInit.c
 
 [Packages]
   MdePkg/MdePkg.dec

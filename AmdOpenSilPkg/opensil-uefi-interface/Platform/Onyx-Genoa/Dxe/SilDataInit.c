@@ -38,6 +38,7 @@ extern EFI_GUID gPeiOpenSilDataHobGuid;
 extern EFI_GUID gEfiPciIoProtocolGuid;
 
 EFI_STATUS CcxDxeInit (EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable);
+EFI_STATUS FchDxeDataInit (EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable);
 
 /**
  * SilPciIoNotification
@@ -134,6 +135,9 @@ SilDxeEntryPoint (
   ASSERT_EFI_ERROR (Status);
 
   Status = CcxDxeInit (ImageHandle, SystemTable);
+  ASSERT_EFI_ERROR (Status);
+
+  Status = FchDxeDataInit (ImageHandle, SystemTable);
   ASSERT_EFI_ERROR (Status);
 
   // Create PciIo notification to call SillPciIoCallback
