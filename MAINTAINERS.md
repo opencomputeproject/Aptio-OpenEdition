@@ -1,20 +1,20 @@
 
 # This file describes the maintainers for Aptio OE for Tioga Pass
 
-Name = "Manickavasakam Karpagavinayagam"
+Name = "Sowmya Narayanan"
 
-Email = "manickavasakamk@ami.com"
+Email = "sowmyan@ami.com"
 
-Github = manickavasakamk
+Github = sowmyan
 
 Mailinglist = AMI_Project@groups.io
 
 
-Name = "Sureshkumar Ponnusamy"
+Name = "Veera Manikantha Vattikuti"
 
-Email = "sureshkumarp@ami.com"
+Email = "veeramanikanthav@ami.com"
 
-Github = sureshkumarpami
+Github = veeramanikanthav
 
 Mailinglist = AMI_Project@groups.io
 
