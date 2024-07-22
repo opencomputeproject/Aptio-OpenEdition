@@ -106,7 +106,7 @@ return back to the minimum platform caller.
  To download the project, clone the repository along with all the submodules and checkout required TAG using the following command:
  git clone --recurse-submodules https://github.com/opencomputeproject/Aptio-OE.git -b (need to be replaced with TAG name)
  
- Run Override_Patch.bat script to include below Pixiefail vulnerability patches which is available in edk2-Stable202405.
+ Run Override_Patch.bat script to include below Pixiefail vulnerability patches, which are available in edk2-Stable202405.
  
 CVE-2023-45229 - Out-of-bounds read when processing IA_NA/IA_TA options in a DHCPv6 Advertise message
 CVE-2023-45230 - Buffer overflow in the DHCPv6 client via a long Server ID option
